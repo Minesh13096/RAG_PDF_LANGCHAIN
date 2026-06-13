@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit secrets — NEVER commit your token
+.streamlit/secrets.toml
+
+# FAISS / model cache
+*.faiss
+.cache/

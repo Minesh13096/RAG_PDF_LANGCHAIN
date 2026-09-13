@@ -72,7 +72,7 @@ def get_embeddings():
 def get_llm():
     # Free-tier HuggingFace LLM called through the Inference API
     endpoint = HuggingFaceEndpoint(
-        repo_id="Qwen/Qwen2.5-7B-Instruct",   # light instruct model
+        repo_id="meta-llama/Llama-3.1-8B-Instruct",   # light instruct model
         task="text-generation",
         max_new_tokens=512,
         temperature=0.2,
